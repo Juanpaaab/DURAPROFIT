@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Interfaz2</class>
+ <widget class="QMainWindow" name="Interfaz2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1366</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1366</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>DURAPROFIT</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../DURAPROFIT INVI.png</normaloff>../DURAPROFIT INVI.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1366</width>
+     <height>768</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1366</width>
+     <height>768</height>
+    </size>
+   </property>
+   <widget class="QTabWidget" name="DATOS">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1831</width>
+      <height>881</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>881</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(5, 51, 74);</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Datos">
+     <attribute name="title">
+      <string>DATOS</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>210</y>
+        <width>181</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+background: none;
+</string>
+      </property>
+      <property name="title">
+       <string>COMANDOS</string>
+      </property>
+      <widget class="QPushButton" name="Extraer">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>141</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgb(47, 168, 170); color:white;
+font: 10pt &quot;MS Shell Dlg 2&quot;; border-radius: 15;</string>
+       </property>
+       <property name="text">
+        <string>EXTRAER DATOS</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Cerrar">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>141</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgb(47, 168, 170); color:white;
+font: 10pt &quot;MS Shell Dlg 2&quot;; border-radius: 15;</string>
+       </property>
+       <property name="text">
+        <string>CERRAR</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Limpiar">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>141</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgb(47, 168, 170); color:white;
+font: 10pt &quot;MS Shell Dlg 2&quot;; border-radius: 15;</string>
+       </property>
+       <property name="text">
+        <string>LIMPIAR</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>30</y>
+        <width>931</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none; font: 36pt &quot;MS Shell Dlg 2&quot;;color: white;</string>
+      </property>
+      <property name="text">
+       <string>DATOS GENERADOS DEL MINERO</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="CuadroDatos">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>130</y>
+        <width>451</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(5, 51, 74);
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+border-color: rgb(5, 51, 74);
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Costo">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="title">
+      <string>CALCULADORA</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>290</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none; color: white;
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>COSTO ENERGÍA EN $/kWh</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditCostoEnergia">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>290</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(5, 51, 74);
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+border-color: rgb(5, 51, 74);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>240</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none; 
+color: white;
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>INVERSIÓN TOTAL EN USD</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditInversion">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>240</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(5, 51, 74);
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+border-color: rgb(5, 51, 74);
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CalcularTiempo">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>360</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(47, 168, 170); color:white;
+font: 10pt &quot;MS Shell Dlg 2&quot;; border-radius: 15;</string>
+      </property>
+      <property name="text">
+       <string>CALCULAR TIEMPO</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CuadroCostos">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>230</y>
+        <width>551</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 22pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Titulo1">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>100</y>
+        <width>621</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 25pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>Tiempo necesario</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Titulo1_2">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>150</y>
+        <width>621</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 25pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>para recuperar inversión</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioBTC">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>510</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>BITCOIN</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioETH">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>510</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>ETHEREUM</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioZEC">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>510</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>ZCASH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioXMR">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>510</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>MONERO</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioETC">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>610</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>ETHEREUM CLASSIC</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioDASH">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>610</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>DASH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioLTC">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>610</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>LITECOIN</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioBTCimg">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>520</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioETHimg">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>520</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioZECimg">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>510</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioXMRimg">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>520</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioETCimg">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>620</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioDASHimg">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>620</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PrecioLTCimg">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>620</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Warning1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>1341</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 19.5pt &quot;MS Shell Dlg 2&quot;;
+color: RED;
+</string>
+      </property>
+      <property name="text">
+       <string>PROCURA EXTRAER LOS DATOS DE TU COMPUTADORA PRIMERO EN LA PESTAÑA &quot;DATOS&quot;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TituloMain">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>20</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 25pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>CALCULADORA</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>700</y>
+        <width>761</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 10
+pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>INFORMACIÓN EXTRAIDA DE: https://whattomine.com/coins.json</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Info">
+     <attribute name="title">
+      <string>INFORMACIÓN</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>80</y>
+        <width>1301</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="MainInfo">
+       <item>
+        <layout class="QVBoxLayout" name="Modelos">
+         <item>
+          <widget class="QLabel" name="Modelo">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 25pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank1">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank2">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank3">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank4">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank5">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank6">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank7">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank8">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank9">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="GPURank10">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="FechasdeSalida">
+         <item>
+          <widget class="QLabel" name="FechaSalida">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank1">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank2">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank3">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank4">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank5">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank6">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank7">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank8">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank9">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="FechaRank10">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="Hashrates">
+         <item>
+          <widget class="QLabel" name="Hashrate">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank1">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank2">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank3">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank4">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank5">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank6">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank7">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank8">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank9">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HRank10">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="CE">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank1">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank2">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank3">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank4">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank5">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank6">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank7">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank8">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank9">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="CERank10">
+           <property name="styleSheet">
+            <string notr="true">background: none;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>20</y>
+        <width>1151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 25pt &quot;MS Shell Dlg 2&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Ranking de mejores GPU para minado de criptomonedas</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="MostrarRaking">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>250</y>
+        <width>601</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(47, 168, 170);
+color:white;
+font: 25pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 15;</string>
+      </property>
+      <property name="text">
+       <string>MOSTRAR RANKING</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>710</y>
+        <width>761</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: none;
+font: 10
+pt &quot;MS Shell Dlg 2&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>INFORMACIÓN EXTRAIDA DE: https://whattomine.com/gpus</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
